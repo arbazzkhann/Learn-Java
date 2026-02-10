@@ -15,7 +15,7 @@ class TypeCasting {
         /*
         because of converting bigger datatype to smaller datatype,
         like "int" to "byte", java will perform this operaton: 
-        (smaller datatype % bigger datatype)
+        (smaller datatype % bigger datatype) and remainder will be the answer.
         */ 
         int finalResult = k % a;
         System.out.print("finalResult: " + finalResult);
